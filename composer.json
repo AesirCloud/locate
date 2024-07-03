@@ -1,0 +1,48 @@
+{
+  "name": "aesircloud/locate",
+  "description": "A Laravel package for geolocation",
+  "license": "MIT",
+  "keywords": [
+    "AesirCloud",
+    "slug",
+    "sluggable"
+  ],
+  "authors": [
+    {
+      "name": "Greg Upton",
+      "email": "greg@aesircloud.com",
+      "homepage": "https://aesircloud.com",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/aesircloud/locate",
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0",
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "AesirCloud\\Locate\\": "src/",
+      "AesirCloud\\Locate\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AesirCloud\\Locate\\LocateServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.34",
+    "orchestra/testbench": "^9.1"
+  }
+}
