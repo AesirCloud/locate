@@ -5,7 +5,6 @@
 ---
 
 <p align="center">
-<a href="https://github.com/aesircloud/locate/actions" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/aesircloud/locate/test.yml?branch=main&style=flat-square"/></a>
 <a href="https://packagist.org/packages/aesircloud/locate" target="_blank"><img src="https://img.shields.io/packagist/v/aesircloud/locate.svg?style=flat-square"/></a>
 <a href="https://packagist.org/packages/aesircloud/locate" target="_blank"><img src="https://img.shields.io/packagist/dt/aesircloud/locate.svg?style=flat-square"/></a>
 <a href="https://packagist.org/packages/aesircloud/locate" target="_blank"><img src="https://img.shields.io/packagist/l/aesircloud/locate.svg?style=flat-square"/></a>
